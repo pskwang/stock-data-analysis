@@ -15,7 +15,7 @@ plt.rcParams['axes.unicode_minus'] = False
 
 engine = create_engine(
     "mysql+mysqlconnector://root@localhost:3306/stock_db",
-    connect_args={"password": "Xvcb8787@"}
+    connect_args={"password": "your_password"}
 )
 
 # ============================================================
